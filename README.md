@@ -1,2 +1,3 @@
 # JavaScript,HTML,CSS
- E-commerce frontend website
+
+A basic E-commerce frontend website for a food shop
