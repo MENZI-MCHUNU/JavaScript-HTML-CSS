@@ -126,6 +126,7 @@ html{
 
  .sliderItem{
     width: 100vw;
+
  }
 
  .addToCart{
@@ -195,4 +196,8 @@ html{
 
 .productDescription{
     color: gray;
+}
+
+.sliderTitle{
+   font-weight: 300;
 }
