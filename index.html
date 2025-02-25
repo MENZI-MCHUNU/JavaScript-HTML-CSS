@@ -1,98 +1,124 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Food Store</title>
-</head>
-<body>
+  </head>
+  <body>
     <na>
-        <div class="navTop">
-            <div class="navItem">
-                <img src="./icons/quality.jpg" width="150" height="150" alt="">
-            </div>
-            <div class="navItem">
-                <div class="search">
-                    <input type="text" placeholder="Search..." class="searchInput">
-                    <img src="./icons/search_.png" width="20" height="20" alt="" class="searchIcon">
-                </div>
-            </div>
-            <div class="navItem">
-                <span class="limitedOffer">Limited offer!</span>
-            </div>
+      <div class="navTop">
+        <div class="navItem">
+          <img src="./icons/quality.jpg" width="150" height="150" alt="" />
         </div>
-        <div class="navBottom">
-            <h3 class="menuItem">FRUITS</h3>
-            <h3 class="menuItem">VEGETABLES</h3>
-            <h3 class="menuItem">DAIRY</h3>
-            <h3 class="menuItem">BUTCHERY</h3>
+        <div class="navItem">
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput" />
+            <img
+              src="./icons/search_.png"
+              width="20"
+              height="20"
+              alt=""
+              class="searchIcon"
+            />
+          </div>
         </div>
+        <div class="navItem">
+          <span class="limitedOffer">Limited offer!</span>
+        </div>
+      </div>
+      <div class="navBottom">
+        <h3 class="menuItem">FRUITS</h3>
+        <h3 class="menuItem">VEGETABLES</h3>
+        <h3 class="menuItem">DAIRY</h3>
+        <h3 class="menuItem">BUTCHERY</h3>
+      </div>
     </na>
     <div class="slider">
-        <div class="sliderWrapper">
-            <div class="sliderItem">
-                <img src="./product/fruits/grapes.jpeg" alt="" class="sliderImg">
-                <h1 class="sliderTitle">FRESH GRAPES</h1>
-            <h2 class="sliderPrice">R40</h2>
-            <a href="#product">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img src="./product/fruits/grapes.jpeg" alt="" class="sliderImg" />
+          <h1 class="sliderTitle">FRESH GRAPES</h1>
+          <h2 class="sliderPrice">R40</h2>
+          <a href="#product">
             <button class="addToCart">ADD TO CART</button>
-            </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./product/vegetables/broccoli.jpg" alt="" class="sliderImg">
-                <h1 class="sliderTitle">FRESH VEGETABLES</h1>
-            <h2 class="sliderPrice">R20</h2>
-            <a href="#product">
-            <button class="addToCart">ADD TO CART</button>
-            </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./product/dairy/goats-milk.jpeg" alt="" class="sliderImg">
-                <h1 class="sliderTitle">FRESH GOATS-MILK</h1>
-                <h2 class="sliderPrice">R30</h2>
-                <a href="#product">
-                <button class="addToCart">ADD TO CART</button>
-                </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./product/butchery/thick-wors.jpeg" alt="" class="sliderImg">
-                <h1 class="sliderTitle">FRESH BOER-WORS</h1>
-            <h2 class="sliderPrice">R200</h2>
-            <a href="#product">
-            <button class="addToCart">ADD TO CART</button>
-            </a>
-            </div>
+          </a>
         </div>
+        <div class="sliderItem">
+          <img
+            src="./product/vegetables/broccoli.jpg"
+            alt=""
+            class="sliderImg"
+          />
+          <h1 class="sliderTitle">FRESH VEGETABLES</h1>
+          <h2 class="sliderPrice">R20</h2>
+          <a href="#product">
+            <button class="addToCart">ADD TO CART</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./product/dairy/goats-milk.jpeg" alt="" class="sliderImg" />
+          <h1 class="sliderTitle">FRESH GOATS-MILK</h1>
+          <h2 class="sliderPrice">R30</h2>
+          <a href="#product">
+            <button class="addToCart">ADD TO CART</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img
+            src="./product/butchery/thick-wors.jpeg"
+            alt=""
+            class="sliderImg"
+          />
+          <h1 class="sliderTitle">FRESH BOER-WORS</h1>
+          <h2 class="sliderPrice">R200</h2>
+          <a href="#product">
+            <button class="addToCart">ADD TO CART</button>
+          </a>
+        </div>
+      </div>
     </div>
     <div class="features">
-        <div class="feature">
-            <img src="./icons/delivery.png" alt="" class="featureIcon">
-            <span class="featureTitle">FREE DELIVERY</span>
-            <span class="featuredDescription">Free delivery on all orders.</span>
-        </div>
-        <div class="feature">
-            <img src="./icons/savings_card.png" alt="" class="featureIcon">
-            <span class="featureTitle">EXTRA SAVINGS</span>
-            <span class="featuredDescription">Swipe with your extra savings card every time you buy and save more!</span>
-        </div>
-        <div class="feature">
-            <img src="./icons/contact_support.png" alt="" class="featureIcon">
-            <span class="featureTitle">CONTACT US</span>
-            <span class="featuredDescription">Do you have questions about our products? contact us</span>
-        </div>
+      <div class="feature">
+        <img src="./icons/delivery.png" alt="" class="featureIcon" />
+        <span class="featureTitle">FREE DELIVERY</span>
+        <span class="featuredDescription">Free delivery on all orders.</span>
+      </div>
+      <div class="feature">
+        <img src="./icons/savings_card.png" alt="" class="featureIcon" />
+        <span class="featureTitle">EXTRA SAVINGS</span>
+        <span class="featuredDescription"
+          >Swipe with your extra savings card every time you buy and save
+          more!</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./icons/contact_support.png" alt="" class="featureIcon" />
+        <span class="featureTitle">CONTACT US</span>
+        <span class="featuredDescription"
+          >Do you have questions about our products? contact us</span
+        >
+      </div>
     </div>
     <div class="product" id="product">
-        <img src="./product/fruits/grapes.jpeg" alt="" class="productImg">
-        <div class="productDetails">
-            <h1 class="productTitle">FRESH GRAPES</h1>
-            <h2 class="productPrice">R40</h2>
-            <p class="productDescription">Healthy delicious grapes to have on a hot summers day to cool you down.</p>
-            <button class="addproducttocart">ADD TO CART</button>
-        </div>
+      <img src="./product/fruits/grapes.jpeg" alt="" class="productImg" />
+      <div class="productDetails">
+        <h1 class="productTitle">FRESH GRAPES</h1>
+        <h2 class="productPrice">R40</h2>
+        <p class="productDescription">
+          Healthy delicious grapes to have on a hot summers day to cool you
+          down.
+        </p>
+        <button class="addproducttocart">ADD TO CART</button>
+      </div>
     </div>
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
